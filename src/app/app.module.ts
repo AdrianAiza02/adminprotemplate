@@ -12,6 +12,11 @@ import { PagesModule } from './pages/pages.module';
 
 //formulario luego lo quitaremos
 import { FormsModule } from '@angular/forms';
+import { ServiceModule } from './services/service.module';
+
+
+//servicios
+
 
 
 
@@ -27,7 +32,8 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     APP_ROUTES,
     PagesModule,
-    FormsModule
+    FormsModule,
+    ServiceModule
     
   ],
   providers: [],
