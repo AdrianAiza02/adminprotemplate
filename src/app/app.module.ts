@@ -11,7 +11,7 @@ import { APP_ROUTES } from './app.routes';
 import { PagesModule } from './pages/pages.module';
 
 //formulario luego lo quitaremos
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ServiceModule } from './services/service.module';
 
 
@@ -26,6 +26,7 @@ import { ServiceModule } from './services/service.module';
     LoginComponent,
     RegisterComponent
     
+    
   
   ],
   imports: [
@@ -33,7 +34,8 @@ import { ServiceModule } from './services/service.module';
     APP_ROUTES,
     PagesModule,
     FormsModule,
-    ServiceModule
+    ServiceModule,
+    ReactiveFormsModule
     
   ],
   providers: [],
